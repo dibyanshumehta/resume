@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dibyanshu Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="animate">Dibyanshu Mehta</h1>
+    <p>Web Developer | BCA Student | Passionate Learner</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m a fresher passionate about web development and learning new technologies. I’ve worked on projects in HTML, CSS, JavaScript, Firebase.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>BCA - Sharda University, 2022-25 <br>
+       12th - Dynasty Modern Gurukul Academy, 2021-22 <br>
+       10th - Dynasty Modern Gurukul Academy, 2019-20
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li onmouseover="showTooltip(event, 'Frontend: HTML, CSS, JS')" onmouseout="hideTooltip()">Frontend</li>
+      <li onmouseover="showTooltip(event, 'Backend: Python')" onmouseout="hideTooltip()">Backend</li>
+      <li onmouseover="showTooltip(event, 'Database: MySQL, PHP')" onmouseout="hideTooltip()">Database</li>
+      <li onmouseover="showTooltip(event, 'Tools: Git, VSCode, Netlify')" onmouseout="hideTooltip()">Tools</li>
+    </ul>
+    <div id="tooltip" class="tooltip"></div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Personal Portfolio</h3>
+      <p>A web app specially dedicated to me and my projects. Built with HTML, CSS, JS.</p>
+    </div>
+    <div class="project">
+      <h3>Amazon Clone</h3>
+      <p>Clone of Amazon’s frontend interface showcasing responsive design and user flow.</p>
+    </div>
+    <div class="project">
+      <h3>Calcuator</h3>
+      <p>Basic calculator for the arithmatic operations, Built with HTML, CSS, JS.</p>
+    </div>
+    <div class="project">
+      <h3>ChitChat - Real-Time Chat App</h3>
+      <p>Chat app using BroadcastChannel API with real-time messaging and responsive UI.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: mehtadibyanshu2004@example.com | LinkedIn: linkedin.com/in/dibyanshu-mehta</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
